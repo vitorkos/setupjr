@@ -6,6 +6,17 @@
 .main{
     display: flex;
     background-color: red;
-    height: 100vh;
+    height: 80vh;
+    width: 100vw;
+}
+.main-content{
+    background-color: green;
+    margin-top: 32px;
+    padding-bottom: 32px;
+    width: 100%;
+}
+footer{
+    background-color: blue;
+    height: 20vh;
     width: 100vw;
 }
