@@ -19,3 +19,7 @@ footer {
     background-color: red;
     padding: 30px 20px;
 }
+footer ul li{
+    list-style: none;
+    float: left;
+}
