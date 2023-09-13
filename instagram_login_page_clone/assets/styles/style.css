@@ -11,5 +11,11 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 90vh;
-    background-color: ;
+    background-color: aqua;
+}
+
+
+footer {
+    background-color: red;
+    padding: 30px 20px;
 }
