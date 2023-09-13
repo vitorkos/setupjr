@@ -6,4 +6,10 @@
 body{
     overflow-x: hidden;
 }
-.container
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background-color: aqua;
+}
