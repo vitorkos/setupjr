@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    overflow-x: hidden;
+}
 .main{
     display: flex;
     background-color: red;
@@ -25,14 +28,7 @@
     height: 590px;
     width: 730px
 }
-.cel-image{
-    display: flex;
-    background-color: blue;
-    height: 50%;
-    width: 50%;
-    margin-right: 32px;
 
-}
 
 footer{
     background-color: blue;
