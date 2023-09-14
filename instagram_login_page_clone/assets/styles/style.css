@@ -81,6 +81,12 @@ body{
     justify-content: center;
     align-items: center;
 }
+.container .col-content .download{
+    margin-top: 20px;
+    width: 350px;
+    height: 100px;
+    text-align: center;
+}
 
 
 
