@@ -130,15 +130,6 @@ footer ul{
 footer ul li{
     justify-content: space-between;
     list-style: none;
-    float: left;
+    float: left;;
 }
-footer ul li a{
-    text-decoration: none;
-    color: rgba(142, 142, 142, 1);
-}
-footer .languages{
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    color: rgba(142, 142, 142, 1);
-}
+footer .
