@@ -22,10 +22,18 @@ body{
     border: 1px solid rgba(219, 219, 219, 1);
     border-radius: 1px;
 }
-.container .col-content .box .title{
+.container .col-content .box .title img {
+    width: 190px;
+    height: 80px;
+}
+.container .col-content .box .title {
     position: relative;
     top: 5px;
     text-align: center;
+}
+.container .col-content{
+    position: relative;
+    top: 12px;
 }
 
 footer {
