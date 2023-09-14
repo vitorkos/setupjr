@@ -62,7 +62,6 @@ body{
 #or{
     color: rgba(142, 142, 142, 1);
     background: white;
-    padding-bottom: 30px;
 }
 #line{
     z-index: 1;
@@ -74,6 +73,15 @@ body{
     height: 1px;
     background: rgba(219, 219, 219, 1);
 }
+.container .col-content .sign-up{
+    border: 1px solid rgba(219, 219, 219, 1);
+    width: 350px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 .container .col-content .download .download-images img {
