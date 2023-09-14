@@ -123,10 +123,17 @@ footer {
 footer ul{
     display: flex;
     justify-content: center;
-    align-items: center;
+    gap: 16px;
+    width: 70%;
+    margin: 0 auto 20px;
 }
 footer ul li{
+    justify-content: space-between;
     list-style: none;
-    float: left;
+    float: left;;
 }
-footer .
+footer .languages{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
