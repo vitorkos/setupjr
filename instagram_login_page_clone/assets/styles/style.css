@@ -23,7 +23,9 @@ body{
     border-radius: 1px;
 }
 .container .col-content .box .title{
-
+    position: relative;
+    top: 5px;
+    text-align: center;
 }
 
 footer {
