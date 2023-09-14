@@ -87,6 +87,22 @@ body{
     height: 100px;
     text-align: center;
 }
+p#face{
+    color: #385185;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.alternative-login a{
+    position: relative;
+    top: 15px;
+    text-decoration: none;
+    color: rgba(0, 55, 107, 1);
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+}
 
 
 
