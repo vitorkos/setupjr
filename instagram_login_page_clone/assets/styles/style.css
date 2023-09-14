@@ -16,7 +16,7 @@ body{
 .container .col-content .box{
     z-index: 2;
     width: 350px;
-    height: 380px;
+    height: 400px;
     margin: 0 0 10px;
     padding: 10px 0;
     border: 1px solid rgba(219, 219, 219, 1);
@@ -30,6 +30,7 @@ body{
     position: relative;
     top: 5px;
     text-align: center;
+    margin-top: 20px;
 }
 .container .col-content{
     position: relative;
@@ -48,9 +49,32 @@ body{
     height: 40px;
     margin: 5px 25px;
     border: 1px solid rgba(219, 219, 219, 1);
-    border-radius: 1px;
+    border-radius: 4px;
     background-color: #4db5f9;
 }
+.container .col-content .box  .login  .alternative-login {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+}
+#or{
+    color: rgba(142, 142, 142, 1);
+    background: white;
+    padding-bottom: 30px;
+}
+#line{
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10px;
+    width: 270px;
+    height: 1px;
+    background: rgba(219, 219, 219, 1);
+}
+
 
 .container .col-content .download .download-images img {
     width: 135px;
