@@ -35,7 +35,27 @@ body{
     position: relative;
     top: 12px;
 }
+.container .col-content .box .login input{
+    width: 300px;
+    height: 40px;
+    margin: 5px 25px;
+    border: 1px solid rgba(219, 219, 219, 1);
+    border-radius: 1px;
+    
+}
+.container .col-content .box .login button{
+    width: 300px;
+    height: 40px;
+    margin: 5px 25px;
+    border: 1px solid rgba(219, 219, 219, 1);
+    border-radius: 1px;
+    background-color: #4db5f9;
+}
 
+.container .col-content .download .download-images img {
+    width: 135px;
+    height: 40px;
+}
 footer {
     padding: 30px 20px;
 }
