@@ -142,6 +142,7 @@ footer ul li{
     float: left;
 }
 footer ul li a{
+    font-size: 11.5px;
     text-decoration: none;
     color: rgba(142, 142, 142, 1);
 }
@@ -150,4 +151,12 @@ footer .languages{
     justify-content: center;
     gap: 10px;
     color: rgba(142, 142, 142, 1);
+}
+footer .languages select{
+    border: 0;
+    background-color: white;
+    color: rgba(142, 142, 142, 1);
+}
+footer .languages p{
+    font-size: 11.5px;
 }
