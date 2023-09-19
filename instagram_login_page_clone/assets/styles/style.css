@@ -96,6 +96,7 @@ p#face{
     font-size: 14px;
     font-weight: 500;
     margin-top: 15px;
+    font-weight: bold;
 }
 .alternative-login a{
     position: relative;
