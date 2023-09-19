@@ -3,11 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: nimbus-sans, sans-serif;
+    font-size: 10px;
 }
 body{
     overflow-x: hidden;
 }
 .container{
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
