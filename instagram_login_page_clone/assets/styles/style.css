@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: nimbus-sans, sans-serif;
-    font-size: 10px;
+    font-size: 13px;
 }
 body{
     overflow-x: hidden;
@@ -54,6 +54,11 @@ body{
     border: 1px solid rgba(219, 219, 219, 1);
     border-radius: 4px;
     background-color: #4db5f9;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 10px;
 }
 .container .col-content .box  .login  .alternative-login {
     position: relative;
