@@ -4,5 +4,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/message', function(){
-    return "Hello World";
+    return response()->json([
+        'message' => 'Hello world',
+        'status_code' => 200
+    ]);
 });
