@@ -2,6 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ApiController;
 
 Route::get('/message-test', function(){
     return response()->json([
@@ -10,7 +11,4 @@ Route::get('/message-test', function(){
     ]);
 });
 
-Route::post('/user-sign', function (Request $request) {
-    $request->input('user');
-    return $request;
-});
+Route::post('/user-signup', [ApiController::class, 'create']);
