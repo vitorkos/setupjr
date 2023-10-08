@@ -17,6 +17,16 @@ class ApiController extends Controller
         ];
 
 
+        $messages = [
+            'name' => 'required or invalid name',
+            'email' => 'required or invalid email',
+            'password' => 'required or min 8 characters',
+            'cpf' => 'required or invalid cpf'
+        ];
+
+
+
+
         $users = new User();
 
         $users->name = $request->input('name');
