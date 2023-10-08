@@ -9,24 +9,6 @@ use Illuminate\Validation\Rule;
 class ApiController extends Controller
 {
     public function create(Request $request){
-        $rules =[
-            'name' => 'required|string|regex:/^[A-Za-z\s]+$/|max:255',
-            'email' => 'required|email|unique:users',
-            'password' => 'required|min:8',
-            'cpf' => 'required|cpf|unique:users|min:11|max:14'
-        ];
-
-
-        $messages = [
-            'name' => 'required or invalid name',
-            'email' => 'required or invalid email',
-            'password' => 'required or min 8 characters',
-            'cpf' => 'required or invalid cpf'
-        ];
-
-
-
-
         $users = new User();
 
         $users->name = $request->input('name');
