@@ -9,7 +9,8 @@ public class UserService {
 
     public List<User> getUsers(){
 		return List.of(
-			new User("caralho",
+			new User(1L,
+            "caralho",
 			"test@gmail.com",
 			"123",
 			"234")
