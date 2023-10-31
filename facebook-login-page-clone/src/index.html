@@ -1,88 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facebook</title>
-    <link rel="stylesheet" href="./assets/styles/style.css">
-</head>
-<body>
-    <main>
-        <header>
-            <h1>
-                <figure>
-                    <img src="./../assets/figures/face-logo.svg" alt="Facebook logo">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Facebook</title>
+        <link rel="stylesheet" href="./assets/styles/style.css" />
+    </head>
+    <body>
+        <main>
+            <header>
+                <figure class="facebook-logo-figure">
+                    <img
+                        class="facebook-logo-img"
+                        src="./../assets/figures/face-logo.svg"
+                        alt="Facebook logo"
+                    />
                 </figure>
-            </h1>
-            <h2>
-                <p>
-                    Connect with friends and the world around you on Facebook.
+
+                <h2 class="facebook-logo-subtitle">
+                        Connect with friends and the world around you on
+                        Facebook.
+                </h2>
+            </header>
+            <section class="form-section">
+                <input
+                    type="text"
+                    name="identificator"
+                    required
+                    placeholder="Email or phone number"
+                />
+                <input
+                    type="password"
+                    name="password"
+                    required
+                    placeholder="Password"
+                />
+                <button type="submit">Log in</button>
+                <a href="#">Forgot password?</a>
+                <button type="submit">Create new account</button>
+            </section>
+            
+                <p class="create-page-text">
+                    <b><a href="#">Create a page</a></b> for a celebrity, brand
+                    or business.
                 </p>
-            </h2>
-        </header>
-        <section>
-            <input type="text" name="identificator" required placeholder="Email or phone number">
-            <input type="password" name="password" required placeholder="Password">
-            <button type="submit">Log in</button>
-            <a href="#">Forgot password?</a>
-            <button type="submit">Create new account</button>
-        </section>
-        <article>
-            <p>
-                <b><a href="#">Create a page</a></b> for a celebrity, brand or business.
-            </p>
-        </article>
-    </main>
-    <footer>
-        <nav>
-            <ul>
-                <li>English(US)</li>
-                <li><a href="#" title="Portugues(Brasil)">Portugues(Brasil)</a></li>
-                <li><a href="#" title="Spanish(Spain)">Español</a></li>
-                <li><a href="#" title="French(France)">Français(France)</a></li>
-                <li><a href="#" title="Italian(Italy)">Italiano</a></li>
-                <li><a href="#" title="German">Deutsch</a></li>
-                <li><a href="#" title="Arabic">العربية</a></li>
-                <li><a href="#" title="Hindi">हिन्दी</a></li>
-                <li><a href="#" title="Chinese(China)">中文(简体)</a></li>
-                <li><a href="#" title="Japapanese(Japan)">日本語</a></li>
-                <li><a href="#" title="Show more languages">Show more languages</a></li>
-            </ul>
-            <ul>
-                <li><a href="#" title="">Sign Up</a></li>
-                <li><a href="#" title="">Log In</a></li>
-                <li><a href="#" title="">Messeger</a></li>
-                <li><a href="#" title="">Facebook Lite</a></li>
-                <li><a href="#" title="">Video</a></li>
-                <li><a href="#" title="">Places</a></li>
-                <li><a href="#" title="">Games</a></li>
-                <li><a href="#" title="">Marketplace</a></li>
-                <li><a href="#" title="">Meta Pay</a></li>
-                <li><a href="#" title="">Meta Store</a></li>
-                <li><a href="#" title="">Meta Quest</a></li>
-                <li><a href="#" title="">Instagram</a></li>
-                <li><a href="#" title="">Threads</a></li>
-                <li><a href="#" title="">Fundraisers</a></li>
-                <li><a href="#" title="">Services</a></li>
-                <li><a href="#" title="">Voting Information Center</a></li>
-                <li><a href="#" title="">Privacy Policy</a></li>
-                <li><a href="#" title="">Privacy Center</a></li>
-                <li><a href="#" title="">Groups</a></li>
-                <li><a href="#" title="">About</a></li>
-                <li><a href="#" title="">Create ad</a></li>
-                <li><a href="#" title="">Create Page</a></li>
-                <li><a href="#" title="">Developers</a></li>
-                <li><a href="#" title="">Careers</a></li>
-                <li><a href="#" title="">Cookies</a></li>
-                <li><a href="#" title="">Ad choices</a></li>
-                <li><a href="#" title="">Terms</a></li>
-                <li><a href="#" title="">Help</a></li>
-                <li><a href="#" title="">Contact Uploading & Non-Users</a></li>   
-            </ul>
-        </nav>
-        <p>
-            Meta © 2023
-        </p>
-    </footer>
-</body>
+            
+        </main>
+        <footer>
+            <nav>
+                <ul class="languages-ul">
+                    <li>English(US)</li>
+                    <li>
+                        <a href="#" title="Portugues(Brasil)"
+                            >Portugues(Brasil)</a
+                        >
+                    </li>
+                    <li><a href="#" title="Spanish(Spain)">Español</a></li>
+                    <li>
+                        <a href="#" title="French(France)">Français(France)</a>
+                    </li>
+                    <li><a href="#" title="Italian(Italy)">Italiano</a></li>
+                    <li><a href="#" title="German">Deutsch</a></li>
+                    <li><a href="#" title="Arabic">العربية</a></li>
+                    <li><a href="#" title="Hindi">हिन्दी</a></li>
+                    <li><a href="#" title="Chinese(China)">中文(简体)</a></li>
+                    <li><a href="#" title="Japapanese(Japan)">日本語</a></li>
+                    <li>
+                        <a href="#" title="Show more languages"
+                            >Show more languages</a
+                        >
+                    </li>
+                </ul>
+                <ul class="more-ul">
+                    <li><a href="#" title="">Sign Up</a></li>
+                    <li><a href="#" title="">Log In</a></li>
+                    <li><a href="#" title="">Messeger</a></li>
+                    <li><a href="#" title="">Facebook Lite</a></li>
+                    <li><a href="#" title="">Video</a></li>
+                    <li><a href="#" title="">Places</a></li>
+                    <li><a href="#" title="">Games</a></li>
+                    <li><a href="#" title="">Marketplace</a></li>
+                    <li><a href="#" title="">Meta Pay</a></li>
+                    <li><a href="#" title="">Meta Store</a></li>
+                    <li><a href="#" title="">Meta Quest</a></li>
+                    <li><a href="#" title="">Instagram</a></li>
+                    <li><a href="#" title="">Threads</a></li>
+                    <li><a href="#" title="">Fundraisers</a></li>
+                    <li><a href="#" title="">Services</a></li>
+                    <li><a href="#" title="">Voting Information Center</a></li>
+                    <li><a href="#" title="">Privacy Policy</a></li>
+                    <li><a href="#" title="">Privacy Center</a></li>
+                    <li><a href="#" title="">Groups</a></li>
+                    <li><a href="#" title="">About</a></li>
+                    <li><a href="#" title="">Create ad</a></li>
+                    <li><a href="#" title="">Create Page</a></li>
+                    <li><a href="#" title="">Developers</a></li>
+                    <li><a href="#" title="">Careers</a></li>
+                    <li><a href="#" title="">Cookies</a></li>
+                    <li><a href="#" title="">Ad choices</a></li>
+                    <li><a href="#" title="">Terms</a></li>
+                    <li><a href="#" title="">Help</a></li>
+                    <li>
+                        <a href="#" title="">Contact Uploading & Non-Users</a>
+                    </li>
+                </ul>
+            </nav>
+            <p class="meta-brand">Meta © 2023</p>
+        </footer>
+    </body>
 </html>
