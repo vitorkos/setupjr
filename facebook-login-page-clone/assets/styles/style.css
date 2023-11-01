@@ -7,11 +7,21 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 922px;
+    width: 1346px;
     height: 536px;
     padding-top: 72px;
     padding-bottom: 112px;
+    margin: 0px;
 
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 980px;
+    height: 496px;
+    padding: 20px 0px 20px 0px;
+    margin: 0px auto 0px auto;
 }
 .form-section{
     display: flex;
