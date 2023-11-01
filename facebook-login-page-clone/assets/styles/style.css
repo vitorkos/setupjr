@@ -23,6 +23,11 @@ main{
     padding: 20px 0px 20px 0px;
     margin: 0px auto 0px auto;
 }
+.right-block{
+    display: flex;
+    width: 396px;
+    height: 456px;
+}
 .form-section{
     display: flex;
     align-items:center;
@@ -33,6 +38,28 @@ img{
     width: 135px;
     height: 40px;
 }
+footer{
+    width: 980px;
+    height: 137.333px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 70%;
+    margin: 0 auto 20px;
+    font-size: 12px;
+    font-family: inherit;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
 .languages-ul{
     display: flex;
 }
