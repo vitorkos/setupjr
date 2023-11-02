@@ -25,11 +25,13 @@ main{
 }
 .right-block{
     display: flex;
+    flex-direction: column;
     width: 396px;
     height: 456px;
 }
 .form-section{
     display: flex;
+    flex-direction: column;
     align-items:center;
     justify-content:center;
     
@@ -41,6 +43,7 @@ img{
 footer{
     width: 980px;
     height: 137.333px;
+    margin: 0px auto 0px auto
 }
 
 footer ul{
