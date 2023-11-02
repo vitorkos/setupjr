@@ -20,6 +20,10 @@ main{
     margin: -28px;
     padding-bottom: 16px;
 }
+img{
+    width: 135px;
+    height: 40px;
+}
 .facebook-logo-subtitle{
     font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
     font-size: 28px;
@@ -50,9 +54,18 @@ main{
     width: 396px;
     height: 317.317px;
 }
-img{
-    width: 135px;
-    height: 40px;
+.form-section input{
+    width: 364px;
+    height: 52px;
+    margin: auto;
+    border: 1px solid rgba(219, 219, 219, 1);
+    border-radius: 6px;
+    font-size: 17px;
+}
+.form-section input:focus{
+    border-color: #1b74e4;
+    box-shadow: 0 0 0 2px #e7f3ff;
+    caret-color: #1b74e4;
 }
 footer{
     width: 980px;
