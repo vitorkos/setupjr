@@ -53,6 +53,8 @@ img{
     justify-content:center;
     width: 396px;
     height: 317.317px;
+    border: 1px solid rgba(219, 219, 219, 1);
+    border-radius: 1px;
 }
 .form-section input{
     width: 364px;
@@ -67,7 +69,7 @@ img{
     box-shadow: 0 0 0 2px #e7f3ff;
     caret-color: #1b74e4;
 }
-.form-section button{
+.log-in-button{
     width: 364px;
     height: 52px;
     margin: auto;
