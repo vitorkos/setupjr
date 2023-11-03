@@ -188,6 +188,19 @@ footer{
     line-height: 1.34;
 
 }
+.line-footer{
+    font-family: inherit;
+    border-bottom: 1px solid #dddfe2;
+    font-size: 1px;
+    height: 8px;
+    margin-bottom: 8px;border-bottom: 1px solid #dddfe2;
+    font-size: 1px;
+    height: 8px;
+    margin-bottom: 8px;
+    color: #737373;
+    direction: ltr;
+    line-height: 1.34;
+}
 
 a{
     text-decoration: none;
