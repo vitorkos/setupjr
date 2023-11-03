@@ -4,15 +4,15 @@
     box-sizing: border-box;
 }
 main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
+    box-sizing: content-box;
     width: 1346px;
     height: 536px;
-    padding-top: 72px;
     padding-bottom: 112px;
-    margin: 0px;
-    background-color: #f0f2f5;
+    padding-top: 72px;
+    background: #f0f2f5;
+    min-width: 500px;
+    font-size: 12px;
 }
 .facebook-logo-img{
     width: 320.95px;
@@ -143,6 +143,11 @@ img{
     line-height: 1.34;
 
 }
+
+
+
+
+
 
 footer{
     width: 1346px;
