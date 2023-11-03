@@ -53,8 +53,13 @@ img{
     justify-content:center;
     width: 396px;
     height: 317.317px;
+    padding-top: 10px;
+    padding-bottom: 24px;
+    margin-top:40px;
     border: 1px solid rgba(219, 219, 219, 1);
-    border-radius: 1px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
 }
 .form-section input{
     width: 364px;
