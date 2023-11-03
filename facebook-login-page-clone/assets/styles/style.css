@@ -147,11 +147,13 @@ img{
 footer{
     display: block;
     box-sizing: content-box;
-    width: 1346px;
-    height: 137.333px;
+    float: none;
+    line-height: 16.0833px;
+    position: static;
+    z-index: auto;
     padding-top: 20px;
-    margin: 0px auto;
-}
+    font-size: 12px;
+    color: #1c1e21;
 
 footer ul{
     width: 980px;
