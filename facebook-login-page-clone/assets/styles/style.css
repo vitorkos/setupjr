@@ -169,29 +169,27 @@ footer{
     direction: ltr;
     line-height: 1.34;
 }
-footer ul{
-    width: 980px;
-    height: 20px;
+.languages-ul{
+    box-sizing: content-box;
+    display: flex;
+    float: none;
+    line-height: 16.0833px;
+    position: static;
+    z-index: auto;
     padding-top: 8px;
     align-items: center;
-    display: flex;
     flex-wrap: wrap;
     list-style-type: none;
-    margin: 0px;
+    margin: 0;
+    padding: 0;
     color: #737373;
     font-size: 12px;
+    direction: ltr;
+    line-height: 1.34;
+
 }
 
 a{
     text-decoration: none;
     color: black;
-}
-
-
-
-.languages-ul{
-    display: flex;
-}
-.more-ul{
-    display: flex;
 }
