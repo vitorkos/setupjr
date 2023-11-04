@@ -228,7 +228,21 @@ footer{
     position: static;
     z-index: auto;
 }
-
+.more-ul li a{
+    margin-right: 0;
+    color: #8a8d91;
+    white-space: nowrap;
+    cursor: pointer;
+    line-height: 1.6;
+    list-style-type: none;
+    font-size: 12px;
+    box-sizing: content-box;
+    display: inline;
+    float: none;
+    line-height: 19.2px;
+    position: static;
+    z-index: auto;
+}
 
 
 a{
