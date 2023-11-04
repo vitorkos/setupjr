@@ -212,6 +212,22 @@ footer{
     width: 1000px;
     height: 57.6px;
 }
+.more-ul li{
+    padding-right: 0px;
+    padding-left: 20px;
+    border-width: 0;
+    vertical-align: top;
+    line-height: 1.6;
+    list-style-type: none;
+    color: #737373;
+    font-size: 12px;
+    box-sizing: content-box;
+    display: inline-block;
+    float: none;
+    line-height: 19.2px;
+    position: static;
+    z-index: auto;
+}
 
 
 
