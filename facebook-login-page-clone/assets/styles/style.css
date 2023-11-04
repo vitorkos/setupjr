@@ -203,7 +203,6 @@ footer{
 }
 .more-ul{
     line-height: 1.6;
-    margin-left: -20px;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -213,8 +212,7 @@ footer{
     height: 57.6px;
 }
 .more-ul li{
-    padding-right: 0px;
-    padding-left: 20px;
+    padding-right: 20px;
     border-width: 0;
     vertical-align: top;
     line-height: 1.6;
@@ -239,7 +237,7 @@ footer{
     box-sizing: content-box;
     display: inline;
     float: none;
-    line-height: 19.2px;
+    line-height: 1.6;
     position: static;
     z-index: auto;
 }
