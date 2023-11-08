@@ -157,7 +157,7 @@ img{
 
 }
 footer{
-    display: block;
+    display: flex;
     box-sizing: content-box;
     float: none;
     line-height: 1.00520625rem;/*16,0833px*/
@@ -272,3 +272,52 @@ a{
     color: black;
 }
 
+/* Add media query for screen width less than or equal to 768px */
+@media only screen and (max-width: 768px) {
+    main {
+        width: 100%; /* Adjust the width for smaller screens */
+        padding-bottom: 5rem; /* Adjust the padding for smaller screens */
+        padding-top: 3rem; /* Adjust the padding for smaller screens */
+    }
+    .left-block {
+        width: 100%; /* Adjust the width for smaller screens */
+        height: auto; /* Adjust the height for smaller screens */
+        margin-bottom: 5rem; /* Adjust the margin for smaller screens */
+    }
+    .facebook-logo-img {
+        width: 100%; /* Adjust the width for smaller screens */
+        height: auto; /* Adjust the height for smaller screens */
+        margin: 0; /* Adjust the margin for smaller screens */
+        padding-bottom: 0.5rem; /* Adjust the padding for smaller screens */
+        margin-left: 0; /* Adjust the margin for smaller screens */
+    }
+    .content {
+        width: 100%; /* Adjust the width for smaller screens */
+        flex-direction: column; /* Adjust the flex direction for smaller screens */
+        height: auto; /* Adjust the height for smaller screens */
+    }
+    .right-block {
+        width: 100%; /* Adjust the width for smaller screens */
+        height: auto; /* Adjust the height for smaller screens */
+    }
+    footer {
+        padding-top: 0.75rem; /* Adjust the padding for smaller screens */
+    }
+    .footer-content {
+        width: 100%; /* Adjust the width for smaller screens */
+        text-align: center; /* Adjust the text alignment for smaller screens */
+        margin: 0; /* Adjust the margin for smaller screens */
+    }
+    .languages-ul {
+        margin-top: 0.5rem; /* Adjust the margin for smaller screens */
+        padding-top: 0.25rem; /* Adjust the padding for smaller screens */
+    }
+    .more-ul {
+        width: 100%; /* Adjust the width for smaller screens */
+        height: auto; /* Adjust the height for smaller screens */
+    }
+    .more-ul li {
+        padding-right: 0.75rem; /* Adjust the padding for smaller screens */
+    }
+    /* Add other necessary changes for smaller screens here */
+}
