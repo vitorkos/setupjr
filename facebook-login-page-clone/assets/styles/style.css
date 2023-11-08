@@ -15,11 +15,20 @@ main{
     min-width: 31.25rem;/*500px*/
     font-size: 0.75rem;/*12px*/
 }
+.left-block{
+    display: block;
+    width: 31.25rem;
+    height: 8.375rem;
+    margin-bottom: 7rem;
+
+}
 .facebook-logo-img{
-    width: 20.059375rem;/*320.958px*/
-    height: 6.625rem;/*106px*/
+    width: 21.059375rem;/*320.958px*/
+    height: 7.625rem;/*106px*/
     margin: -1.75rem;/*-58px*/
+    margin-left: -2.3rem;
     padding-bottom: 1rem;/*19px*/
+    font-size: 0.75rem;
 }
 img{
     width: 8.4375rem;/*135px*/
@@ -34,11 +43,11 @@ img{
 }
 .content{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 61.25rem;/*980px*/
     height: 31rem;/*496px*/
-    padding: 1.25rem 0px;/*20px - 0px*/
+    padding: 1.25rem ;/*20px - 0px*/
     margin: 0px auto;/*0px */
 }
 .right-block{
