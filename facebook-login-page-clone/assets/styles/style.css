@@ -203,7 +203,12 @@ footer{
 .languages-ul li a{
     padding-left: 0.625rem;
     color: #737373;
-
+}
+.languages-ul .more{
+    width: 0.75rem;
+    height: 1.125rem;
+    line-height: 1.125rem;
+    font-size: 1.7rem;
 }
 .line-footer{
     font-family: inherit;
@@ -262,9 +267,8 @@ footer{
 footer p{
     margin: 2rem 0;
 }
-
-
 a{
     text-decoration: none;
     color: black;
 }
+
