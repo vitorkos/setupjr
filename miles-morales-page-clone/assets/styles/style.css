@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-image: url("../images/miles_background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 header{
     display: flex;
     width: 100%;
